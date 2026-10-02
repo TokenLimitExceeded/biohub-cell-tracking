@@ -1,0 +1,30 @@
+{
+  "id": "richardsilence/biohub-flow-t-vote-unionp95jk4ab-20260928",
+  "title": "biohub-flow-t-vote-unionp95jk4ab-20260928",
+  "code_file": "biohub-flow-t-vote-unionp95jk4ab-20260928.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [
+    "pilkwang/biohub-deepcenter-unet3d-center-prior-v1",
+    "pilkwang/biohub-temporal-unet3d-seed314159-v1",
+    "pilkwang/biohub-tracking-support-pack-50ep-v1",
+    "richardsilence/biohub-divclf-v1",
+    "richardsilence/biohub-coordhead-20260926"
+  ],
+  "kernel_sources": [
+    "richardsilence/biohub-external-assets-20260921"
+  ],
+  "competition_sources": [
+    "biohub-cell-tracking-during-development"
+  ],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+  "machine_shape": "NvidiaTeslaT4"
+}
